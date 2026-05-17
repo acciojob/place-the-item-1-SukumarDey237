@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	gap:1px;
+}
+
+.square{
+	font-size: 32px;
+	width:100px;
+	aspect-ratio:1;
+	background-color:green;
+}
+
+#sqr1{
+	background-color:red;
+	order:1;
+}
+#sqr2{
+	background-color:blue;
+	order:2;
+}
+#sqr3{
+	background-color:green;
+	order:0
+}
